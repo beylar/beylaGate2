@@ -8,56 +8,66 @@
     <link rel="stylesheet" href="./build/output.css">
 </head>
 
-<body>
+<body class="relative">
+    <!-- NAV BARS -->
     <section>
-        <nav class="flex py-2 px-20  bg-bgSeven text-colorOne font-fourth">
-            <div class="flex ">
-                <div class="flex gap-2">
-                    <p>About the university</p>
-                    <img src="./utilities/SolidChevronDownLittleGray.svg">
+        <nav class="flex px-28 bg-bgSeven text-colorOne font-fourth justify-between items-center">
+            <div class="flex gap-2  items-center">
+                <div class="flex items-center">
+
+                    <p class="text-sm">About the university</p>
+                    <img class="w-12 h-8" src="./utilities/SolidChevronDownLittleGray.svg">
                 </div>
-                <div class="flex gap-2">
-                    <p>Faculties</p>
-                    <img src="./utilities/SolidChevronDownLittleGray.svg">
+                <div class="flex items-center">
+                    <p class="text-sm">Faculties</p>
+                    <img class="w-12 h-8" src="./utilities/SolidChevronDownLittleGray.svg">
                 </div>
             </div>
 
-            <div class="flex gap-3">
-                <div>
-
-                </div>
-                <p class="text-slate-400 hover:text-white">PT</p>
+            <div class="flex gap-2   items-center">
+                    <img class="invert h-5" src="./utilities/news-solid-24.png">
+                    <img class="invert h-5" src="./utilities/instagram-logo-24.png">
+                    <img class="invert h-5" src="./utilities/youtube-logo-24.png">
+                    <img class="invert h-5" src="./utilities/linkedin-square-logo-24.png">
+                    <img class="invert h-5" src="./utilities/twitter-logo-24.png">
+                    <img class="invert h-5" src="./utilities/facebook-logo-24.png">
+                <p class="text-slate-400 pl-6 hover:text-white">PT</p>
                 <p>EN</p>
+                
+         
             </div>
         </nav>
-        <nav>
-            <div class="flex px-10 gap-10 align-baseline">
-                <img class="w-52 h-14" src="./utilities/logo1.svg">
-                <div class="flex gap-4 font-first font-bold">
+        <nav class="bg-bgThree">
+            <div class="flex px-28 gap-10 justify-evenly items-center">
+                <img class="w-64 h-14" src="./utilities/logo1.svg">
+                <div class="flex gap-4 font-first font-bold py-4">
                     <p>STUDY</p>
                     <p>RESEARCH</p>
                     <p>INNOVATE</p>
                     <p>LIVE</p>
                     <p>EXPLORE</p>
                 </div>
-                <div class="border-b-2 w-10 border-b-black flex ">
-                    <p>Search</p>
-                    <img src="./utilities/smaller-search.svg">
+                <div class=" flex border-b-2 border-b-[#4d4d4d] gap-2 h-12 font-thin items-center">
+                    <p class="py-4">Search </p>
+                    <img class=" h-5 " src="./utilities/search.svg">
+                    
                 </div>
             </div>
         </nav>
     </section>
 
+    <!-- SECTION 1 -->
     <section>
         <div class="relative ">
+            
             <img class="h-screen w-full object-cover" src="./utilities/ijup-2024_12.format-jpeg.jpeg">
-            <div class="absolute flex top-52">
+            <!-- <div class="absolute flex top-52"> -->
 
-                <button class="bg-bgFive py-2 px-3 border h-12 border-[#a18a4d]">
-                    <img src="./utilities/">
+                <button class="absolute top-52  bg-bgFive py-2 border h-12 border-[#a18a4d]">
+                    <img class="invert" src="./utilities/chevron-left-regular-24.png">
                 </button>
 
-                <div class="py-10 px-10  ml-24  font-first bg-bgSix w-[500px] h-[200px] flex flex-col justify-between">
+                <div class="absolute top-52 py-10 px-10  ml-24  font-first bg-bgSix w-[500px] h-[200px] flex flex-col justify-between">
                     <div class="text-colorOne">
 
                         <p>IJUP 2024: New talents in Science reveal themselves at U.Porto</p>
@@ -68,7 +78,7 @@
                         </button>
                     </div>
                 </div>
-                <button class="bg-bgFive py-2 px-3 border h-12 border-[#a18a4d] mr-0">
+                <button class="absolute top-52 bg-bgFive py-2 px-3 border h-12 border-[#a18a4d] right-0 ">
                     <img src="./utilities/submenu-arrow.svg">
                 </button>
             </div>
@@ -76,6 +86,7 @@
         </div>
     </section>
 
+    <!-- SECTION 2 -->
     <section class="mt-20 px-28 mb-20 bg-bgOne">
         <p class="text-5xl text-colorFour font-thin">Study</p>
         <div class="flex gap-16 mt-7">
@@ -114,23 +125,28 @@
         </div>
     </section>
 
-    <section class="bg-bgTwo px-28 mb-20">
+
+
+    <!-- SECTION 3 -->
+
+    <section class="bg-bgTwo px-28 mb-20 pb-20">
         <div class="flex justify-between py-20 align-baseline">
             <p class="text-5xl text-colorFour font-thin">News</p>
             <div class="flex gap-2">
                 <p class="text-colorFour">All News</p>
-                <button class="border border-[#a18a4d] bg-bgFive rounded-full h-4 w-4">
+                <button class="border border-[#a18a4d] bg-bgFive rounded-full h-6 w-6 px-2">
                     <img class="h-2 w-2" src="./utilities/submenu-arrow.svg">
                 </button>
             </div>
         </div>
 
-        <div class="grid grid-cols-5">
+        <div class="grid grid-cols-5 gap-7">
             <div class="col-span-2">
                 <div class="border h-[250px] bg-bgOne flex flex-col justify-between px-4 py-4 ">
                     <div>
-                        <p>Desporto</p>
-                        <a class="py-4">U.Porto vai organizar Europeu Universitario
+                        <p class="text-colorFour font-first ">Desporto</p>
+                        <a class="font-fourth text-2xl font-semibold text-colorSix pt-20">U.Porto vai organizar Europeu
+                            Universitario
                             de Futebol em 2027
                         </a>
                     </div>
@@ -143,8 +159,10 @@
             <div class="col-span-2">
                 <div class="border h-[250px] bg-bgOne flex flex-col justify-between px-4 py-4 ">
                     <div>
-                        <p>Campus e Comunidade | Ciencia e lnovacao | Multimedia | Video</p>
-                        <a class="py-4">Mais de 1000 estidantes foram ao IJUO "abrir as portas" da Ciencia
+                        <p class="text-colorFour font-first ">Campus e Comunidade | Ciencia e lnovacao | Multimedia |
+                            Video</p>
+                        <a class="font-fourth text-2xl font-semibold text-colorSix pt-10">Mais de 1000 estidantes foram
+                            ao IJUO "abrir as portas" da Ciencia
                         </a>
                     </div>
                     <p class="text-colorFive font-fourth">13 May 2024</p>
@@ -157,27 +175,34 @@
             <div class="">
                 <div class="border h-[250px] bg-bgOne flex flex-col justify-between px-4 py-4 ">
                     <div>
-                        <p>Cultura</p>
-                        <a class="py-4">MHNC-UP abre para celebrar os Ciencia
+                        <p class="text-colorFour font-first ">Cultura</p>
+                        <a class="font-fourth text-2xl font-semibold text-colorSix pt-10">MHNC-UP abre para celebrar os
+                            Ciencia
                         </a>
                     </div>
                     <p class="text-colorFive font-fourth">11 May 2024</p>
                 </div>
                 <div class="">
-                    <img class="" src="./utilities/peddy-paper-mentoria-mhnc-up_02.jpg">
+                    <img class="h-[265px] object-cover" src="./utilities/peddy-paper-mentoria-mhnc-up_02.jpg">
                 </div>
 
             </div>
         </div>
 
-        <div>
-            <img src="">
-            <img src="./utilities/submenu-arrow.svg">
+        <div class="flex mt-8 gap-2">
+            <button class="border bg-bgFour">
+                <img class="invert" src="./utilities/chevron-left-regular-24.png">
+            </button>
+            <button class="border bg-bgFive px-4 py-2">
+                <img class="" src="./utilities/submenu-arrow.svg">
+            </button>
         </div>
 
 
     </section>
 
+
+    <!-- SECTION 4 -->
 
     <section class="bg-bgOne mt-20 px-28">
         <div class="flex justify-between">
@@ -189,21 +214,20 @@
                 </div>
             </div>
             <div class="w-1/2">
-                <p class="font-fourth text-xl font-thin">With over 100 years of history, the University of Porto is a
-                </p>
-                <p class="font-fourth text-xl"> leading teaching and scientific research institution in Portugal and
-                    worldwide.</p>
+                <p> <span class="font-fourth text-xl font-thin">With over 100 years of history, the University of Porto is a
+                </span> <span class="font-fourth text-xl"> leading teaching and scientific research institution in Portugal and
+                    worldwide.</span>
 
-                <p class="font-fourth text-xl font-thin mt-4">Considered</p>
-                <p class="font-fourth text-xl">the best Portuguese University and one of the best 100 European
-                    institutions</p>
-                <p class="font-fourth text-xl font-thin">according to the most important Higher Education rankings,
-                    U.Porto combines quality teaching and excellent research with the best academic experience.</p>
+                <p class="mt-4"><span class="font-fourth text-xl font-thin">Considered</span>
+                <span class="font-fourth text-xl">the best Portuguese University and one of the best 100 European
+                    institutions</span>
+                <span class="font-fourth text-xl font-thin">according to the most important Higher Education rankings,
+                    U.Porto combines quality teaching and excellent research with the best academic experience.</span></p>
 
-                <p class="font-fourth text-xl">We are waiting for you!</p>
-                <div class="flex gap-2">
+                <p class="font-fourth text-xl mt-4">We are waiting for you!</p>
+                <div class="flex gap-2 pt-3">
                     <p class="text-colorFour font-bold font-first">See more</p>
-                    <button class="border border-[#a18a4d] bg-bgFive rounded-full h-4 w-4">
+                    <button class="border border-[#a18a4d] bg-bgFive rounded-full h-6 w-6 px-2">
                         <img class="h-2 w-2" src="./utilities/submenu-arrow.svg">
                     </button>
                 </div>
@@ -211,34 +235,37 @@
         </div>
 
     </section>
+
+    <!-- SECTION 5 -->
+
     <section class="bg-bgOne px-28 mt-20 mb-20 ">
         <p class="text-5xl text-colorFour font-thin">Research</p>
         <div class="flex gap-10 mt-6 ">
-        <div>
-            <p class="font-first font-bold text-2xl">Research University</p>
-            <p>
-                With 48 research units and a highly qualified scientific community, the University of Porto is one of
-                the largest producers of science in Portugal, contributing to almost 25% of all national scientific
-                output.</p>
+            <div>
+                <p class="font-first font-bold text-2xl">Research University</p>
+                <p class="font-thin font-fourth text-xl">
+                    With <span class="text-colorFour">48 research units </span> and a highly qualified scientific community, the University of Porto is 
+                    <span class=" font-fourth">one of the largest producers of science in Portugal,</span> contributing to almost <span class="text-colorFour">25% of all national scientific
+                    output.</span></p>
 
-            <p>The excellence of our scientific ecosystem is particularly evident in the leading position the University
-                occupies in the main international rankings of Higher Education.
-            </p>
-        </div>
-        <div>
-            <img src="./utilities/investigar-home_destaque.format-jpeg.jpeg">
-        </div>
+                <p class="mt-6">The excellence of our scientific ecosystem is particularly evident in the <span class="text-colorFour">leading position the
+                    University
+                    occupies in the main international rankings of Higher Education.</span>
+                </p>
+            </div>
+            <div>
+                <img src="./utilities/investigar-home_destaque.format-jpeg.jpeg">
+            </div>
         </div>
     </section>
-
-    <section class="bg-bgFive text-colorOne py-28 px-28 mb-20">
-        <img class="invert" src="./utilities/sound.svg">
-        <div>
-            <p class="">Learn more</p>
+    <!-- SECTION 6 -->
+    <section class="relative bg-bgFive text-colorOne py-20 px-28 mb-20">
+        <div class="flex justify-center">
+            <img class="invert w-[120px] h-[120px]" src="./utilities/sound.svg">
         </div>
-        <div class="text-center">
-        <p class="text-4xl font-bold font-first">U.PORTO IN FIGURES</p>
-        <p class="text-3xl">2022/2023</p>
+        <div class="text-center mt-4">
+            <p class="text-4xl font-bold font-first">U.PORTO IN FIGURES</p>
+            <p class="text-3xl">2022/2023</p>
         </div>
         <div class="border border-white mt-10 font-thin"></div>
         <div class="flex mt-10  justify-around">
@@ -255,127 +282,140 @@
                 <p class="text-3xl font-fourth font-thin text-colorOne">Research Units</p>
             </div>
         </div>
+        <div class="absolute flex gap-2 top-14 right-28">
+            <p class="">Learn more</p>
+            <button class="bg-bgOne rounded-full h-6 w-6 px-2 scale-75">
+                <img class="invert" src="./utilities/submenu-arrow.svg">
+            </button>
+        </div>
     </section>
+
+    <!-- SECTION 7 -->
 
     <section class="px-28 mb-20">
         <p class="text-5xl text-colorFour font-thin">Frequently asked questions</p>
-        <div class="flex gap-10 text-lg  mt-6 font-semibold font-fourth">
+        <div class="flex gap-10 text-lg  mt-6 font-semibold font-fourth mb-4">
             <a>International Students</a>
-          
+
             <div class="text-colorThree flex gap-10 ">
-            <a>Prospective Students</a>
-            <a>Professionals</a>
-            <a>Alumni</a>
-            <a>U.Porto Students</a>
-     
+                <a>Prospective Students</a>
+                <a>Professionals</a>
+                <a>Alumni</a>
+                <a>U.Porto Students</a>
+
+
             </div>
         </div>
-        <div class="flex">
-        <div class="border border-black font-thin"></div>
+
+        <!-- <div class="border border-black font-thin"></div> -->
         <div class="border border-slate-400 font-thin"></div>
-        </div>
+
 
         <div class="mt-6 grid grid-cols-2 gap-12">
             <div class="flex flex-col justify-between">
-            <div class="">
-                <p class="text-3xl text-colorSeven font-semibold font-fourth">International Students</p>
-                <p class="font-fourth font-thin text-lg mt-4">Welcome! In this area you will find the answers you need to start and make the most of your experience at the University.
-                     We hope to help you... and welcome you soon!</p>
-                     <div class="flex gap-2">
-                            <p class="text-colorFour font-bold font-first">See more</p>
-                            <button class="border border-[#a18a4d] bg-bgFive rounded-full h-4 w-4">
-                                <img class="h-2 w-2" src="./utilities/submenu-arrow.svg">
-                            </button>
-                     </div>
-            </div>
-            
-            <div class="">
-                <button class="bg-bgFour py-2 px-3 border h-12 border-[#a18a4d] mr-0">
-                    <img src="./utilities/submenu-arrow.svg">
-                </button>
-                <button class="bg-bgFive py-2 px-3 border h-12 border-[#a18a4d] mr-0">
-                    <img src="./utilities/submenu-arrow.svg">
-                </button>
-            </div>
+                <div class="">
+                    <p class="text-3xl text-colorSeven font-semibold font-fourth">International Students</p>
+                    <p class="font-fourth font-thin text-lg mt-4">Welcome! In this area you will find the answers you
+                        need to start and make the most of your experience at the University.
+                        We hope to help you... and welcome you soon!</p>
+                    <div class="flex gap-2">
+                        <p class="text-colorFour font-bold font-first">See more</p>
+                        <button class="border border-[#a18a4d] bg-bgFive rounded-full h-6 w-6 px-2">
+                            <img class="h-2 w-2" src="./utilities/submenu-arrow.svg">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="flex gap-2">
+                    <button class="bg-bgFour border h-8 w-9 px-1">
+                        <img class="invert h-7 w-7" src="./utilities/chevron-left-regular-24.png">
+                    </button>
+                    <button class="bg-bgFive py-2 px-3 border  border-[#a18a4d]">
+                        <img src="./utilities/submenu-arrow.svg">
+                    </button>
+                </div>
             </div>
             <div>
                 <img src="./utilities/gate-estudantes-internacionais.format-jpeg.jpeg">
             </div>
         </div>
-</div>
+        </div>
     </section>
 
-    <section class="bg-bgSeven py-48 ">
+    <!-- FOOTER -->
+    <section class="bg-bgSeven pt-20 pb-20 ">
         <div class="relative">
-        <img class="-left-10" src="./utilities/minerva_01.png">
-        <div class="absolute px-28 top-20">
-        <div class=" grid grid-cols-5  text-colorOne font-fourth font-thin gap-10">
-            <div class="grid grid-rows-2 text-colorFour font-first ">
-                <p>Media</p>
-                <p>U.Porto Portals</p>
-            </div>
-            <div class="grid grid-rows-2" >
-                <div class="flex flex-col gap-4">
-                <a class="hover:underline">U.Porto News</a>
-                <a class="hover:underline">Image Manual</a>
-                </div>
-                <div class="flex flex-col gap-4">
-                    <a class="hover:underline">CDUP-U.Porto Sports Centre</a>
-                    <a class="hover:underline">Educational Innovation</a>
-                    <a class="hover:underline">Peer Mentoring</a>
-                </div>
+            <div class=" px-28">
+                <div class=" grid grid-cols-5  text-colorOne font-fourth font-thin gap-10">
+                    <div class="grid grid-rows-2 text-colorFour font-first ">
+                        <p>Media</p>
+                        <p>U.Porto Portals</p>
+                    </div>
+                    <div class="grid grid-rows-2">
+                        <div class="flex flex-col gap-4">
+                            <a class="hover:underline">U.Porto News</a>
+                            <a class="hover:underline">Image Manual</a>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <a class="hover:underline">CDUP-U.Porto Sports Centre</a>
+                            <a class="hover:underline">Educational Innovation</a>
+                            <a class="hover:underline">Peer Mentoring</a>
+                        </div>
 
-            </div>
-            <div class="grid grid-rows-2">
-                <div class="flex flex-col gap-4">
-                <a class="hover:underline">U.Porto Agenda</a>
-                <a class="hover:underline">Bronchures and Presentations</a>
+                    </div>
+                    <div class="grid grid-rows-2">
+                        <div class="flex flex-col gap-4">
+                            <a class="hover:underline">U.Porto Agenda</a>
+                            <a class="hover:underline">Bronchures and Presentations</a>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <a class="hover:underline">Social Support Services of the University of Porto (SASUP)</a>
+                            <a class="hover:underline">Educational Innovation</a>
+                            <a class="hover:underline">Documentation and Information Services and Resources (SRDI)</a>
+                            <a class="hover:underline">Complaints Portal</a>
+                        </div>
+                    </div>
+                    <div class="grid grid-rows-2">
+                        <div>
+                            <a>Media Contacts</a>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <a class="hover:underline">Former Studnets Portal</a>
+                            <a class="hover:underline">U.Porto PRESS</a>
+                            <a class="hover:underline">Peer Mentoring</a>
+                            <a class="hover:underline">SIGARRA U.Porto</a>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="flex flex-col gap-4">
-                    <a class="hover:underline">Social Support Services of the University of Porto (SASUP)</a>
-                    <a class="hover:underline">Educational Innovation</a>
-                    <a class="hover:underline">Documentation and Information Services and Resources (SRDI)</a>
-                    <a class="hover:underline">Complaints Portal</a>
+                <div class="border mt-10 border-[#999999] font-thin"></div>
+                <div class="flex text-colorTwo mt-6 justify-between">
+                    <div class="flex h-8 w-7 gap-5 ">
+                        <img class="invert" src="./utilities/news-solid-24.png">
+                        <img class="invert" src="./utilities/instagram-logo-24.png">
+                        <img class="invert" src="./utilities/youtube-logo-24.png">
+                        <img class="invert" src="./utilities/linkedin-square-logo-24.png">
+                        <img class="invert" src="./utilities/twitter-logo-24.png">
+                        <img class="invert" src="./utilities/facebook-logo-24.png">
+                    </div>
+                    <div class="flex flex-col gap-4 w-52">
+                        <p class="font-semibold">Contacts</p>
+                        <p>Reitoria da Universidade do Porto</p>
+                        <p>Parca Gomes Teixeira 4099-002 Porto, Portugal</p>
+                        <p>Tel: (+351) 220 408 000 Email:up@up.pt</p>
+
+                    </div>
+                </div>
+                <div class="text-colorTwo flex gap-5 mt-7">
+                    <p>© University of Porto 2024</p>
+                    <a class="hover:underline">Personal Data Protection</a>
+                    <a class="hover:underline">Privacy Policy</a>
+                    <a class="hover:underline">Accessibility</a>
                 </div>
             </div>
-            <div class="grid grid-rows-2">
-                <div>
-                <a>Media Contacts</a>
-                </div>
-                <div class="flex flex-col gap-4">
-                    <a class="hover:underline">Former Studnets Portal</a>
-                    <a class="hover:underline">U.Porto PRESS</a>
-                    <a class="hover:underline">Peer Mentoring</a>
-                    <a class="hover:underline">SIGARRA U.Porto</a>
-                </div>
+            <div class="absolute -top-16 -left-[350px] ">
+                <img class="w-[600px] h-[550px]" src="./utilities/img_minerva_footer.png">
             </div>
-            
-        </div>
-        <div class="border mt-10 border-[#999999] font-thin"></div>
-        <div class="flex text-colorTwo mt-6 justify-between">
-            <div class="flex h-8 w-7 gap-5 ">
-                <img class="invert" src="./utilities/news-solid-24.png">
-                <img class="invert" src="./utilities/instagram-logo-24.png">
-                <img class="invert" src="./utilities/youtube-logo-24.png">
-                <img class="invert" src="./utilities/linkedin-square-logo-24.png">
-                <img class="invert" src="./utilities/twitter-logo-24.png">
-                <img class="invert" src="./utilities/facebook-logo-24.png">
-            </div>
-            <div class="flex flex-col gap-4 w-52">
-                <p class="font-semibold">Contacts</p>
-                <p>Reitoria da Universidade do Porto</p>
-                <p>Parca Gomes Teixeira 4099-002 Porto, Portugal</p>
-                <p>Tel: (+351) 220 408 000 Email:up@up.pt</p>
-                
-            </div>
-        </div>
-        <div class="text-colorTwo flex gap-5 mt-7">
-            <p>© University of Porto 2024</p>
-            <a class="hover:underline">Personal Data Protection</a>
-            <a class="hover:underline">Privacy Policy</a>
-            <a class="hover:underline">Accessibility</a>
-        </div>
-        </div>
         </div>
     </section>
 </body>
