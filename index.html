@@ -73,7 +73,6 @@
         <div class="relative ">
             
             <img class="h-screen w-full object-cover" src="./utilities/ijup-2024_12.format-jpeg.jpeg">
-            <!-- <div class="absolute flex top-52"> -->
 
                 <button class="absolute top-60  bg-bgFive py-2 border h-12 border-[#a18a4d]">
                     <img class="invert" src="./utilities/chevron-left-regular-24.png">
@@ -91,6 +90,13 @@
                         </button>
                     </div>
                 </div>
+                <div class="absolute bg-bgSix h-[170px] md:hidden px-5 py-5 bottom-0">
+                    <p class="text-xl font-first text-colorTwo">IJUP 2024: New talents in Science reveal themselves at U.Porto</p>
+                    <button class="py-1 px-2 bg-bgFive w-32  mt-10 ">
+                        <p class="font-first font-bold">See More</p>
+                    </button>
+
+                </div>
                 <button class="absolute top-60 bg-bgFive py-2 px-3 border h-12 border-[#a18a4d] right-0 ">
                     <img src="./utilities/submenu-arrow.svg">
                 </button>
@@ -100,19 +106,26 @@
     </section>
 
     <!-- SECTION 2 -->
-    <section class="mt-20 px-28 mb-20 bg-bgOne">
+    <section class="mt-20 px-10 md:px-28 mb-20 bg-bgOne">
         <p class="text-5xl text-colorFour font-thin">Study</p>
-        <div class="flex gap-16 mt-7">
+        <div class="hidden md:flex md:gap-16 md:mt-7">
             <p class="text-2xl font-second font-bold w-2/4 text-colorEight">Your future is here!</p>
             <p class="font-third font-thin text-xl">Gathering the most complete offer of training programmes in
                 Portugal, the 14 faculties of the U.Porto
                 offer unique conditions to those who want
                 to build an academic path of excellence and properly valued by the labour market.</p>
         </div>
+        <div class="md:hidden">
+            <p class="text-2xl font-second font-bold w-2/4 text-colorEight mt-6">Your future is here!</p>
+            <p class="font-third font-thin text-xl mt-6">Gathering the most complete offer of training programmes in
+                Portugal, the 14 faculties of the U.Porto
+                offer unique conditions to those who want
+                to build an academic path of excellence and properly valued by the labour market.</p>
+        </div>
         <div class="border border-slate-300 mt-10"></div>
         <div class="mt-14">
-            <p class="text-3xl font-first font-bold">Which course are you looking for?</p>
-            <div class="flex gap-7 mt-10">
+            <p class="text-3xl font-first font-semibold">Which course are you looking for?</p>
+            <div class="hidden md:flex md:gap-7 md:mt-10">
                 <div class="flex flex-col gap-3 w-4/5">
                     <div class="border-2 flex justify-between border-black bg-bgOne px-5 py-2 ">
                         <p>All</p>
@@ -127,6 +140,29 @@
                     </button>
                 </div>
                 <div class="flex flex-col px-4">
+                    <p class="font-first text-2xl">Courses from A to Z:</p>
+                    <div class="text-xl font-fourth font-thin flex flex-col ">
+                        <a class="underline hover:text-colorFour">Bachelor's and Integrated Master's Degree</a>
+                        <a class="underline hover:text-colorFour">Masters' degrees</a>
+                        <a class="underline hover:text-colorFour">Doctorates</a>
+                    </div>
+                </div>
+            </div>
+            <div class="md:hidden mt-6">
+                <div class="flex flex-col gap-3">
+                    <div class="border-2 flex justify-between border-black bg-bgOne px-5 py-2 ">
+                        <p>All</p>
+                        <img src="./utilities/select.svg">
+                    </div>
+                    <div class="text-colorFive border-2 border-black bg-bgOne px-5 py-2">
+                        <p>Please enter course keywords...</p>
+                    </div>
+                    <button
+                        class="text-center bg-bgFive text-colorOne font-first font-bold text-2xl py-2 border hover:text-colorFour hover:bg-bgOne">
+                        <p>Search</p>
+                    </button>
+                </div>
+                <div class="flex flex-col px-2 mt-10">
                     <p class="font-first text-2xl">Courses from A to Z:</p>
                     <div class="text-xl font-fourth font-thin flex flex-col ">
                         <a class="underline hover:text-colorFour">Bachelor's and Integrated Master's Degree</a>
@@ -218,15 +254,12 @@
     <!-- SECTION 4 -->
 
     <section class="bg-bgOne mt-20 px-28">
-        <div class="flex justify-between">
-            <div class="relative">
-                <img class="h-[350px]  " src="./utilities/minerva_01.png">
-                <div class="absolute top-20 ">
-                    <p class="text-5xl text-colorFour font-thin">We are a university of excellence!</p>
-
-                </div>
+        <div class="flex justify-between gap-10">
+            <div class="bg-no-repeat bg-contain bg-right w-1/2" style="background-image: url(./utilities/minerva_01.png);">
+                <!-- <img class="h-[350px]  " src="./utilities/minerva_01.png"> -->
+                    <p class="text-5xl text-colorFour font-thin px-5 py-5">We are a university of excellence!</p>
             </div>
-            <div class="w-1/2">
+            <div class="w-2/3">
                 <p> <span class="font-fourth text-xl font-thin">With over 100 years of history, the University of Porto is a
                 </span> <span class="font-fourth text-xl"> leading teaching and scientific research institution in Portugal and
                     worldwide.</span>
