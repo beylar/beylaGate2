@@ -387,7 +387,7 @@
                     </div>
                 </div>
 
-                <div class="mt-6 md:mt-0 flex gap-2">
+                <div class="hidden md:flex md:gap-2">
                     <button class="bg-bgFour border h-8 w-9 px-1">
                         <img class="invert h-7 w-7" src="./utilities/chevron-left-regular-24.png">
                     </button>
@@ -406,8 +406,8 @@
     <!-- FOOTER -->
     <section class="bg-bgSeven pt-20 pb-20 ">
         <div class="relative">
-            <div class=" px-28">
-                <div class=" grid grid-cols-5  text-colorOne font-fourth font-thin gap-10">
+            <div class=" md:px-28 px-10">
+                <div class="hidden md:grid md:grid-cols-5  md:text-colorOne md:font-fourth md:font-thin md:gap-10">
                     <div class="grid grid-rows-2 text-colorFour font-first ">
                         <p>Media</p>
                         <p>U.Porto Portals</p>
@@ -449,8 +449,33 @@
                     </div>
 
                 </div>
+                <div class="md:hidden font-fourth text-colorTwo font-thin">
+                    <div class="flex flex-col gap-3">
+                        <p class="text-colorFour">Media</p>
+                        <a class="hover:underline">U.Porto News</a>
+                        <a class="hover:underline">U.Porto Agenda</a>
+                        <a class="hover:underline">Media Contacts</a>
+                        <a class="hover:underline">Image Manual</a>
+                        <a class="hover:underline">Bronchures and Presentations</a>
+                    </div>
+                    <div class="flex flex-col gap-3 md:mt-4 mt-8">
+                        <p class="text-colorFour">U.Porto Portals</p>
+                        <a class="hover:underline">CDUP-U.Porto Sports Center</a>
+                        <a class="hover:underline">Social Support Services of te University of orto (SASUP)</a>
+                        <a class="hover:underline">Former Students Portal</a>
+                        <a class="hover:underline">UPdigital Portal</a>
+                        <a class="hover:underline">Educational Innovation</a>
+                        <a class="hover:underline">U.Porto PRESS</a>
+                        <a class="hover:underline">U.Porto Innovation</a>
+                        <a class="hover:underline">Documentation and Information Services and Resources(SRDI)</a>
+                        <a class="hover:underline">Peer Mentoring</a>
+                        <a class="hover:underline">AcademoiaUP</a>
+                        <a class="hover:underline">Complaints Portal</a>
+                        <a class="hover:underline">SIGARRA U.Porto</a>
+                    </div>
+                </div>
                 <div class="border mt-10 border-[#999999] font-thin"></div>
-                <div class="flex text-colorTwo mt-6 justify-between">
+                <div class="md:flex text-colorTwo mt-6 md:justify-between font-thin">
                     <div class="flex h-8 w-7 gap-5 ">
                         <img class="invert" src="./utilities/news-solid-24.png">
                         <img class="invert" src="./utilities/instagram-logo-24.png">
@@ -459,7 +484,7 @@
                         <img class="invert" src="./utilities/twitter-logo-24.png">
                         <img class="invert" src="./utilities/facebook-logo-24.png">
                     </div>
-                    <div class="flex flex-col gap-4 w-52">
+                    <div class="flex flex-col md:gap-4 w-52 items-center gap-2 mt-4 md:mt-0 ">
                         <p class="font-semibold">Contacts</p>
                         <p>Reitoria da Universidade do Porto</p>
                         <p>Parca Gomes Teixeira 4099-002 Porto, Portugal</p>
@@ -467,14 +492,14 @@
 
                     </div>
                 </div>
-                <div class="text-colorTwo flex gap-5 mt-7">
+                <div class="flex flex-col text-colorTwo md:flex md:gap-5 gap-3 mt-7 font-thin">
                     <p>© University of Porto 2024</p>
                     <a class="hover:underline">Personal Data Protection</a>
                     <a class="hover:underline">Privacy Policy</a>
                     <a class="hover:underline">Accessibility</a>
                 </div>
             </div>
-            <div class="absolute -top-16 -left-[350px] ">
+            <div class="hidden md:absolute md:-top-16 md:-left-[350px] ">
                 <img class="w-[600px] h-[600px]" src="./utilities/img_minerva_footer.png">
             </div>
         </div>
