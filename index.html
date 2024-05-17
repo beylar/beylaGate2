@@ -1,12 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./build/output.css">
 </head>
+
 <body>
-    <h1 class="text-green-900 text-4xl">Home page</h1>
+    <section>
+        <nav class="flex py-2 px-20  bg-bgSeven text-colorOne font-fourth">
+            <div class="flex ">
+                <div class="flex gap-2">
+                    <p>About the university</p>
+                    <img src="./utilities/SolidChevronDownLittleGray.svg">
+                </div>
+                <div class="flex gap-2">
+                    <p>Faculties</p>
+                    <img src="./utilities/SolidChevronDownLittleGray.svg">
+                </div>
+            </div>
+
+            <div class="flex gap-3">
+                <div>
+
+                </div>
+                <p class="text-slate-400 hover:text-white">PT</p>
+                <p>EN</p>
+            </div>
+        </nav>
+        <nav>
+            <div class="flex px-10 gap-10 align-baseline">
+                <img class="w-52 h-14" src="./utilities/logo1.svg">
+                <div class="flex gap-4 font-first font-bold">
+                    <p>STUDY</p>
+                    <p>RESEARCH</p>
+                    <p>INNOVATE</p>
+                    <p>LIVE</p>
+                    <p>EXPLORE</p>
+                </div>
+                <div class="border-b-2 w-10 border-b-black flex ">
+                    <p>Search</p>
+                    <img src="./utilities/smaller-search.svg">
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section>
+        <div class="relative ">
+            <img class="h-screen w-full object-cover" src="./utilities/ijup-2024_12.format-jpeg.jpeg">
+            <div class="absolute flex top-52">
+
+                <button class="bg-bgFive py-2 px-3 border h-12 border-[#a18a4d]">
+                    <img src="./utilities/">
+                </button>
+
+                <div class="py-10 px-10  ml-24  font-first bg-bgSix w-[500px] h-[200px] flex flex-col justify-between">
+                    <div class="text-colorOne">
+
+                        <p>IJUP 2024: New talents in Science reveal themselves at U.Porto</p>
+                        <p>More than 1,000 students atre taking part in the 17th U.Porto
+                            Youth ResearchMeetinf from 8 to 10 May.</p>
+                        <button class="py-1 px-2 bg-bgFive w-32 ">
+                            <p class="font-first font-bold">See More</p>
+                        </button>
+                    </div>
+                </div>
+                <button class="bg-bgFive py-2 px-3 border h-12 border-[#a18a4d] mr-0">
+                    <img src="./utilities/submenu-arrow.svg">
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="mt-20 px-28 mb-20 bg-bgOne">
+        <p class="text-5xl text-colorFour font-thin">Study</p>
+        <div class="flex gap-16 mt-7">
+            <p class="text-2xl font-second font-bold w-2/4 text-colorEight">Your future is here!</p>
+            <p class="font-third font-thin text-xl">Gathering the most complete offer of training programmes in
+                Portugal, the 14 faculties of the U.Porto
+                offer unique conditions to those who want
+                to build an academic path of excellence and properly valued by the labour market.</p>
+        </div>
+        <div class="border border-slate-300 mt-10"></div>
+        <div class="mt-14">
+            <p class="text-3xl font-first font-bold">Which course are you looking for?</p>
+            <div class="flex gap-7 mt-10">
+                <div class="flex flex-col gap-3 w-4/5">
+                    <div class="border-2 flex justify-between border-black bg-bgOne px-5 py-2 ">
+                        <p>All</p>
+                        <img src="./utilities/select.svg">
+                    </div>
+                    <div class="text-colorFive border-2 border-black bg-bgOne px-5 py-2">
+                        <p>Please enter course keywords...</p>
+                    </div>
+                    <button
+                        class="text-center bg-bgFive text-colorOne font-first font-bold text-2xl py-2 border hover:text-colorFour hover:bg-bgOne">
+                        <p>Search</p>
+                    </button>
+                </div>
+                <div class="flex flex-col px-4">
+                    <p class="font-first text-2xl">Courses from A to Z:</p>
+                    <div class="text-xl font-fourth font-thin flex flex-col ">
+                        <a class="underline hover:text-colorFour">Bachelor's and Integrated Master's Degree</a>
+                        <a class="underline hover:text-colorFour">Masters' degrees</a>
+                        <a class="underline hover:text-colorFour">Doctorates</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-bgTwo px-28 mb-20">
+        <div class="flex justify-between py-20 align-baseline">
+            <p class="text-5xl text-colorFour font-thin">News</p>
+            <div class="flex gap-2">
+                <p class="text-colorFour">All News</p>
+                <button class="border border-[#a18a4d] bg-bgFive rounded-full h-4 w-4">
+                    <img class="h-2 w-2" src="./utilities/submenu-arrow.svg">
+                </button>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-5">
+            <div class="col-span-2">
+                <div class="border h-[250px] bg-bgOne flex flex-col justify-between px-4 py-4 ">
+                    <div>
+                        <p>Desporto</p>
+                        <a class="py-4">U.Porto vai organizar Europeu Universitario
+                            de Futebol em 2027
+                        </a>
+                    </div>
+                    <p class="text-colorFive font-fourth">14 May 2024</p>
+                </div>
+                <div>
+                    <img src="./utilities/aerea-frente-edificios.jpeg">
+                </div>
+            </div>
+            <div class="col-span-2">
+                <div class="border h-[250px] bg-bgOne flex flex-col justify-between px-4 py-4 ">
+                    <div>
+                        <p>Campus e Comunidade | Ciencia e lnovacao | Multimedia | Video</p>
+                        <a class="py-4">Mais de 1000 estidantes foram ao IJUO "abrir as portas" da Ciencia
+                        </a>
+                    </div>
+                    <p class="text-colorFive font-fourth">13 May 2024</p>
+                </div>
+                <div>
+                    <img src="./utilities/ijup-2024_31.jpeg">
+                </div>
+
+            </div>
+            <div class="">
+                <div class="border h-[250px] bg-bgOne flex flex-col justify-between px-4 py-4 ">
+                    <div>
+                        <p>Cultura</p>
+                        <a class="py-4">MHNC-UP abre para celebrar os Ciencia
+                        </a>
+                    </div>
+                    <p class="text-colorFive font-fourth">11 May 2024</p>
+                </div>
+                <div class="">
+                    <img class="" src="./utilities/peddy-paper-mentoria-mhnc-up_02.jpg">
+                </div>
+
+            </div>
+        </div>
+
+        <div>
+            <img src="">
+            <img src="./utilities/submenu-arrow.svg">
+        </div>
+
+
+    </section>
+
+
+    <section class="bg-bgOne mt-20 px-28">
+        <div class="flex gap-10">
+            <div class="relative">
+                <img class="h-1/2 " src="./utilities/minerva_01.png">
+                <div class="absolute top-20 w-1/2">
+                    <p class="text-5xl text-colorFour font-thin">We are a university of excellence!</p>
+
+                </div>
+            </div>
+            <div class="w-1/2">
+                <p class="font-fourth text-xl font-thin">With over 100 years of history, the University of Porto is a
+                </p>
+                <p class="font-fourth text-xl"> leading teaching and scientific research institution in Portugal and
+                    worldwide.</p>
+
+                <p class="font-fourth text-xl font-thin">Considered</p>
+                <p class="font-fourth text-xl">the best Portuguese University and one of the best 100 European
+                    institutions</p>
+                <p class="font-fourth text-xl font-thin">according to the most important Higher Education rankings,
+                    U.Porto combines quality teaching and excellent research with the best academic experience.</p>
+
+                <p class="font-fourth text-xl">We are waiting for you!</p>
+                <div class="flex gap-2">
+                    <p class="text-colorFour font-bold font-first">See more</p>
+                    <button class="border border-[#a18a4d] bg-bgFive rounded-full h-4 w-4">
+                        <img class="h-2 w-2" src="./utilities/submenu-arrow.svg">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <p class="text-5xl text-colorFour font-thin">Research</p>
+        <div>
+            <p class="font-first font-bold text-2xl">Research University</p>
+            <p>
+                With 48 research units and a highly qualified scientific community, the University of Porto is one of
+                the largest producers of science in Portugal, contributing to almost 25% of all national scientific
+                output.</p>
+
+            <p>The excellence of our scientific ecosystem is particularly evident in the leading position the University
+                occupies in the main international rankings of Higher Education.
+            </p>
+        </div>
+
+
+    </section>
 </body>
+
 </html>
