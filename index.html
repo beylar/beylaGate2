@@ -151,7 +151,7 @@
             <div class="md:hidden mt-6">
                 <div class="flex flex-col gap-3">
                     <div class="border-2 flex justify-between border-black bg-bgOne px-5 py-2 ">
-                        <p>All</p>
+                        <select>All</select>
                         <img src="./utilities/select.svg">
                     </div>
                     <div class="text-colorFive border-2 border-black bg-bgOne px-5 py-2">
@@ -344,9 +344,9 @@
 
     <!-- SECTION 7 -->
 
-    <section class="px-28 mb-20">
+    <section class="md:px-28 mb-20 px-6">
         <p class="text-5xl text-colorFour font-thin">Frequently asked questions</p>
-        <div class="flex gap-10 text-lg  mt-6 font-semibold font-fourth mb-4">
+        <div class="hidden md:flex md:gap-10 md:text-lg  md:mt-6 md:font-semibold md:font-fourth md:mb-4">
             <a>International Students</a>
 
             <div class="text-colorThree flex gap-10 ">
@@ -359,18 +359,27 @@
             </div>
         </div>
 
-        <!-- <div class="border border-black font-thin"></div> -->
-        <div class="border border-slate-400 font-thin"></div>
+        
+        <div class="hidden md:border md:border-slate-400 md:font-thin"></div>
+
+    <div class="border-2 flex justify-between border-black bg-bgOne px-5 py-2 md:hidden mt-6">
+        <p>international Students</p>
+        <img src="./utilities/select.svg">
+    </div>
+
+    <div class="md:hidden mt-6">
+        <img src="./utilities/gate-estudantes-internacionais.format-jpeg.jpeg">
+    </div>
 
 
-        <div class="mt-6 grid grid-cols-2 gap-12">
+        <div class="mt-6 md:grid md:grid-cols-2 md:gap-12">
             <div class="flex flex-col justify-between">
                 <div class="">
-                    <p class="text-3xl text-colorSeven font-semibold font-fourth">International Students</p>
+                    <p class="text-2xl md:text-3xl text-colorSeven font-semibold font-fourth">International Students</p>
                     <p class="font-fourth font-thin text-lg mt-4">Welcome! In this area you will find the answers you
                         need to start and make the most of your experience at the University.
                         We hope to help you... and welcome you soon!</p>
-                    <div class="flex gap-2">
+                    <div class="mt-6 md:mt-0 flex gap-2">
                         <p class="text-colorFour font-bold font-first">See more</p>
                         <button class="border border-[#a18a4d] bg-bgFive rounded-full h-6 w-6 px-2">
                             <img class="h-2 w-2" src="./utilities/submenu-arrow.svg">
@@ -378,7 +387,7 @@
                     </div>
                 </div>
 
-                <div class="flex gap-2">
+                <div class="mt-6 md:mt-0 flex gap-2">
                     <button class="bg-bgFour border h-8 w-9 px-1">
                         <img class="invert h-7 w-7" src="./utilities/chevron-left-regular-24.png">
                     </button>
@@ -387,7 +396,7 @@
                     </button>
                 </div>
             </div>
-            <div>
+            <div class="hidden md:block">
                 <img src="./utilities/gate-estudantes-internacionais.format-jpeg.jpeg">
             </div>
         </div>
