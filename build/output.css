@@ -578,6 +578,10 @@ video {
   right: 0.5rem;
 }
 
+.top-0 {
+  top: 0px;
+}
+
 .top-12 {
   top: 3rem;
 }
@@ -590,8 +594,12 @@ video {
   top: 15rem;
 }
 
-.top-0 {
-  top: 0px;
+.-left-1 {
+  left: -0.25rem;
+}
+
+.-left-4 {
+  left: -1rem;
 }
 
 .z-10 {
@@ -690,8 +698,8 @@ video {
   height: 120px;
 }
 
-.h-\[170px\] {
-  height: 170px;
+.h-\[150px\] {
+  height: 150px;
 }
 
 .h-\[250px\] {
@@ -706,48 +714,12 @@ video {
   height: 350px;
 }
 
-.h-\[600px\] {
-  height: 600px;
-}
-
-.h-screen {
-  height: 100vh;
-}
-
-.h-\[180px\] {
-  height: 180px;
-}
-
-.h-\[10px\] {
-  height: 10px;
-}
-
-.h-\[200px\] {
-  height: 200px;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[700px\] {
-  height: 700px;
-}
-
-.h-\[500px\] {
-  height: 500px;
-}
-
-.h-\[150px\] {
-  height: 150px;
-}
-
-.h-\[0px\] {
-  height: 0px;
-}
-
 .h-\[450px\] {
   height: 450px;
+}
+
+.h-\[600px\] {
+  height: 600px;
 }
 
 .w-1\/2 {
@@ -984,16 +956,6 @@ video {
   padding-right: 1.25rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1202,207 +1164,203 @@ video {
   }
 }
 
-@media (min-width: 768px) {
-  .md\:absolute {
+@media (min-width: 1024px) {
+  .lg\:absolute {
     position: absolute;
   }
 
-  .md\:relative {
-    position: relative;
-  }
-
-  .md\:-left-\[350px\] {
+  .lg\:-left-\[350px\] {
     left: -350px;
   }
 
-  .md\:-top-16 {
+  .lg\:-top-16 {
     top: -4rem;
   }
 
-  .md\:right-28 {
+  .lg\:right-28 {
     right: 7rem;
   }
 
-  .md\:top-60 {
+  .lg\:top-60 {
     top: 15rem;
   }
 
-  .md\:mb-4 {
+  .lg\:mb-4 {
     margin-bottom: 1rem;
   }
 
-  .md\:ml-24 {
+  .lg\:ml-24 {
     margin-left: 6rem;
   }
 
-  .md\:mt-0 {
+  .lg\:mt-0 {
     margin-top: 0px;
   }
 
-  .md\:mt-10 {
+  .lg\:mt-10 {
     margin-top: 2.5rem;
   }
 
-  .md\:mt-4 {
-    margin-top: 1rem;
-  }
-
-  .md\:mt-6 {
-    margin-top: 1.5rem;
-  }
-
-  .md\:mt-7 {
-    margin-top: 1.75rem;
-  }
-
-  .md\:mt-20 {
+  .lg\:mt-20 {
     margin-top: 5rem;
   }
 
-  .md\:block {
+  .lg\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .lg\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
+  .lg\:mt-7 {
+    margin-top: 1.75rem;
+  }
+
+  .lg\:block {
     display: block;
   }
 
-  .md\:flex {
+  .lg\:flex {
     display: flex;
   }
 
-  .md\:grid {
+  .lg\:grid {
     display: grid;
   }
 
-  .md\:hidden {
+  .lg\:hidden {
     display: none;
   }
 
-  .md\:h-\[250px\] {
+  .lg\:h-\[250px\] {
     height: 250px;
   }
 
-  .md\:h-screen {
+  .lg\:h-screen {
     height: 100vh;
   }
 
-  .md\:w-1\/2 {
+  .lg\:w-1\/2 {
     width: 50%;
   }
 
-  .md\:w-\[500px\] {
+  .lg\:w-\[500px\] {
     width: 500px;
   }
 
-  .md\:grid-cols-2 {
+  .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .md\:grid-cols-5 {
+  .lg\:grid-cols-5 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
-  .md\:flex-col {
+  .lg\:flex-col {
     flex-direction: column;
   }
 
-  .md\:items-center {
+  .lg\:items-center {
     align-items: center;
   }
 
-  .md\:justify-center {
+  .lg\:justify-center {
     justify-content: center;
   }
 
-  .md\:justify-between {
+  .lg\:justify-between {
     justify-content: space-between;
   }
 
-  .md\:justify-around {
+  .lg\:justify-around {
     justify-content: space-around;
   }
 
-  .md\:gap-10 {
+  .lg\:gap-10 {
     gap: 2.5rem;
   }
 
-  .md\:gap-12 {
+  .lg\:gap-12 {
     gap: 3rem;
   }
 
-  .md\:gap-16 {
+  .lg\:gap-16 {
     gap: 4rem;
   }
 
-  .md\:gap-2 {
+  .lg\:gap-2 {
     gap: 0.5rem;
   }
 
-  .md\:gap-4 {
+  .lg\:gap-4 {
     gap: 1rem;
   }
 
-  .md\:gap-7 {
+  .lg\:gap-7 {
     gap: 1.75rem;
   }
 
-  .md\:border {
+  .lg\:border {
     border-width: 1px;
   }
 
-  .md\:border-slate-400 {
+  .lg\:border-slate-400 {
     --tw-border-opacity: 1;
     border-color: rgb(148 163 184 / var(--tw-border-opacity));
   }
 
-  .md\:bg-bgSix {
+  .lg\:bg-bgSix {
     background-color: #333333e6;
   }
 
-  .md\:px-10 {
+  .lg\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
 
-  .md\:px-28 {
+  .lg\:px-28 {
     padding-left: 7rem;
     padding-right: 7rem;
   }
 
-  .md\:py-20 {
+  .lg\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
 
-  .md\:py-6 {
+  .lg\:py-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
   }
 
-  .md\:font-first {
+  .lg\:font-first {
     font-family: sans-serif;
   }
 
-  .md\:font-fourth {
+  .lg\:font-fourth {
     font-family: Font Awesome 6 Brands;
   }
 
-  .md\:text-3xl {
+  .lg\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
 
-  .md\:text-lg {
+  .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
 
-  .md\:font-semibold {
+  .lg\:font-semibold {
     font-weight: 600;
   }
 
-  .md\:font-thin {
+  .lg\:font-thin {
     font-weight: 100;
   }
 
-  .md\:text-colorOne {
+  .lg\:text-colorOne {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
