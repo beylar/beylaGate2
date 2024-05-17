@@ -37,7 +37,7 @@
          
             </div>
         </nav>
-        <nav class="bg-bgThree ">
+        <nav class="bg-bgThree sticky top-0 z-10 ">
             <div class="hidden md:flex px-28 gap-10 justify-evenly items-center">
                 <img class="w-64 h-14" src="./utilities/logo1.svg">
              
@@ -72,7 +72,7 @@
     <section>
         <div class="relative ">
             
-            <img class="h-screen w-full object-cover" src="./utilities/ijup-2024_12.format-jpeg.jpeg">
+            <img class="md:h-screen h-[450px] w-full object-cover" src="./utilities/ijup-2024_12.format-jpeg.jpeg">
 
                 <button class="absolute top-60  bg-bgFive py-2 border h-12 border-[#a18a4d]">
                     <img class="invert" src="./utilities/chevron-left-regular-24.png">
@@ -90,9 +90,9 @@
                         </button>
                     </div>
                 </div>
-                <div class="absolute bg-bgSix h-[170px] md:hidden px-5 py-5 bottom-0">
-                    <p class="text-xl font-first text-colorTwo">IJUP 2024: New talents in Science reveal themselves at U.Porto</p>
-                    <button class="py-1 px-2 bg-bgFive w-32  mt-10 ">
+                <div class="absolute bg-bgSix h-[150px] md:hidden px-5 py-5 bottom-0">
+                    <p class="text-xl font-first text-colorTwo font-bold">IJUP 2024: New talents in Science reveal themselves at U.Porto</p>
+                    <button class="py-1 px-2 bg-bgFive w-32  mt-4 ">
                         <p class="font-first font-bold">See More</p>
                     </button>
 
@@ -106,7 +106,7 @@
     </section>
 
     <!-- SECTION 2 -->
-    <section class="mt-20 px-10 md:px-28 mb-20 bg-bgOne">
+    <section class="mt-10 md:mt-20 px-5 md:px-28 mb-20 bg-bgOne">
         <p class="text-5xl text-colorFour font-thin">Study</p>
         <div class="hidden md:flex md:gap-16 md:mt-7">
             <p class="text-2xl font-second font-bold w-2/4 text-colorEight">Your future is here!</p>
@@ -178,7 +178,7 @@
 
     <!-- SECTION 3 -->
 
-    <section class="bg-bgTwo px-10 md:px-28 mb-20 pb-20">
+    <section class="bg-bgTwo px-5 md:px-28 mb-20 pb-20">
         <div class="pt-12 md:flex md:justify-between md:py-20 md:items-center">
             <p class="text-5xl text-colorFour font-thin">News</p>
             <div class="pt-5 flex gap-2 items-center ">
@@ -253,7 +253,7 @@
 
     <!-- SECTION 4 -->
 
-    <section class="bg-bgOne mt-20 md:px-28 px-8">
+    <section class="bg-bgOne mt-20 md:px-28 px-5">
         <div class=" md:flex md:justify-between md:gap-7">
             <!-- <div class="bg-no-repeat bg-contain bg-right w-1/2" style="background-image: url(./utilities/minerva_01.png);"> -->
                 <div class="hidden md:relative">
@@ -290,7 +290,7 @@
 
     <!-- SECTION 5 -->
 
-    <section class="bg-bgOne md:px-28 mt-20 mb-20 px-10 ">
+    <section class="bg-bgOne md:px-28 mt-20 mb-20 px-5 ">
         <p class="text-5xl text-colorFour font-thin">Research</p>
         <div class="md:flex md:gap-10 mt-6 ">
             <div>
@@ -311,7 +311,7 @@
         </div>
     </section>
     <!-- SECTION 6 -->
-    <section class="relative bg-bgFive text-colorOne py-20 md:px-28 mb-20 px-10">
+    <section class="relative bg-bgFive text-colorOne py-20 md:px-28 mb-20 px-5">
         <div class="md:flex md:justify-center">
             <img class="invert w-[120px] h-[120px]" src="./utilities/sound.svg">
         </div>
@@ -344,7 +344,7 @@
 
     <!-- SECTION 7 -->
 
-    <section class="md:px-28 mb-20 px-6">
+    <section class="md:px-28 mb-20 px-5">
         <p class="text-5xl text-colorFour font-thin">Frequently asked questions</p>
         <div class="hidden md:flex md:gap-10 md:text-lg  md:mt-6 md:font-semibold md:font-fourth md:mb-4">
             <a>International Students</a>
@@ -492,7 +492,13 @@
 
                     </div>
                 </div>
-                <div class="flex flex-col text-colorTwo md:flex md:gap-5 gap-3 mt-7 font-thin">
+                <div class="hidden  md:flex text-colorTwo gap-5 mt-7 font-thin items-center">
+                    <p>© University of Porto 2024</p>
+                    <a class="hover:underline">Personal Data Protection</a>
+                    <a class="hover:underline">Privacy Policy</a>
+                    <a class="hover:underline">Accessibility</a>
+                </div>
+                <div class="text-colorTwo flex flex-col gap-3 mt-7 font-thin md:hidden">
                     <p>© University of Porto 2024</p>
                     <a class="hover:underline">Personal Data Protection</a>
                     <a class="hover:underline">Privacy Policy</a>
