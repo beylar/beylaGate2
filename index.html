@@ -11,7 +11,7 @@
 <body class="relative">
     <!-- NAV BARS -->
     <section>
-        <nav class="flex px-28 bg-bgSeven text-colorOne font-fourth justify-between items-center">
+        <nav class="hidden md:flex px-28 bg-bgSeven text-colorOne font-fourth justify-between items-center">
             <div class="flex gap-2  items-center">
                 <div class="flex items-center">
 
@@ -37,21 +37,33 @@
          
             </div>
         </nav>
-        <nav class="bg-bgThree">
-            <div class="flex px-28 gap-10 justify-evenly items-center">
+        <nav class="bg-bgThree ">
+            <div class="hidden md:flex px-28 gap-10 justify-evenly items-center">
                 <img class="w-64 h-14" src="./utilities/logo1.svg">
-                <div class="flex gap-4 font-first font-bold py-4">
+             
+                <div class="hidden md:flex gap-4 font-first font-bold py-4 ">
                     <p>STUDY</p>
                     <p>RESEARCH</p>
                     <p>INNOVATE</p>
                     <p>LIVE</p>
                     <p>EXPLORE</p>
                 </div>
-                <div class=" flex border-b-2 border-b-[#4d4d4d] gap-2 h-12 font-thin items-center">
+                <div class="hidden md:flex border-b-2 border-b-[#4d4d4d] gap-2 h-12 font-thin items-center">
                     <p class="py-4">Search </p>
                     <img class=" h-5 " src="./utilities/search.svg">
                     
                 </div>
+
+               
+            </div>
+            <div  class="flex px-10 gap-10 justify-evenly items-center md:hidden">
+            <div class="h-10 md:hidden">
+                <img class="h-9" src="./utilities/menu-regular-24.png">
+            </div>
+            <img class="w-64 h-14" src="./utilities/logo.svg">
+            <div class="h-10 md:hidden">
+                <img class="h-9" src="./utilities/menu-regular-24.png">
+            </div>
             </div>
         </nav>
     </section>
@@ -63,22 +75,23 @@
             <img class="h-screen w-full object-cover" src="./utilities/ijup-2024_12.format-jpeg.jpeg">
             <!-- <div class="absolute flex top-52"> -->
 
-                <button class="absolute top-52  bg-bgFive py-2 border h-12 border-[#a18a4d]">
+                <button class="absolute top-60  bg-bgFive py-2 border h-12 border-[#a18a4d]">
                     <img class="invert" src="./utilities/chevron-left-regular-24.png">
                 </button>
 
-                <div class="absolute top-52 py-10 px-10  ml-24  font-first bg-bgSix w-[500px] h-[200px] flex flex-col justify-between">
-                    <div class="text-colorOne">
-
-                        <p>IJUP 2024: New talents in Science reveal themselves at U.Porto</p>
-                        <p>More than 1,000 students atre taking part in the 17th U.Porto
+                <div class="hidden md:absolute md:top-60 md:py-6 md:px-10  md:ml-24  md:font-first md:bg-bgSix md:w-[500px] md:h-[250px] md:flex md:flex-col md:justify-between">
+                    <div class="text-colorOne flex flex-col justify-between ">
+                        <div>
+                        <p class="text-2xl font-first">IJUP 2024: New talents in Science reveal themselves at U.Porto</p>
+                        <p class="pt-5">More than 1,000 students atre taking part in the 17th U.Porto
                             Youth ResearchMeetinf from 8 to 10 May.</p>
-                        <button class="py-1 px-2 bg-bgFive w-32 ">
+                        </div>
+                        <button class="py-1 px-2 bg-bgFive w-32  mt-10 ">
                             <p class="font-first font-bold">See More</p>
                         </button>
                     </div>
                 </div>
-                <button class="absolute top-52 bg-bgFive py-2 px-3 border h-12 border-[#a18a4d] right-0 ">
+                <button class="absolute top-60 bg-bgFive py-2 px-3 border h-12 border-[#a18a4d] right-0 ">
                     <img src="./utilities/submenu-arrow.svg">
                 </button>
             </div>
